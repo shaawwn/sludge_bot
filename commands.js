@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { InstallGlobalCommands } from './utils.js';
 
-// Commands
+// Commands (sync with git)
 
 const SLUDGE_TEST_COMMAND = {
     name: "sludgetest",
