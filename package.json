@@ -2,8 +2,10 @@
   "name": "sludge-discord-bot",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "register": "node deploy_commands.js",
     "start": "nodemon test.js",
     "devStart": "npm run start"
   },
@@ -13,8 +15,10 @@
   "description": "",
   "dependencies": {
     "discord-interactions": "^4.1.0",
+    "discord.js": "^14.17.3",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

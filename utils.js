@@ -11,7 +11,7 @@ export async function DiscordRequest(endpoint, options) {
       headers: {
         Authorization: `Bot ${process.env.DISCORD_TOKEN}`,
         'Content-Type': 'application/json; charset=UTF-8',
-        'User-Agent': 'SludgeBot (https://github.com/<my url>, 1.0.0)',
+        'User-Agent': 'SludgeBot (https://github.com/shaawwn/sludge_bot, 1.0.0)',
       },
       ...options
     });
